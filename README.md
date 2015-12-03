@@ -15,7 +15,9 @@ Add flat design with weather icons font : https://erikflowers.github.io/weather-
 # Running the app
 
 npm install
+
 npm install webpack -g
+
 npm install webpack-dev-server -g
 
 npm start server

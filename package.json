@@ -1,0 +1,22 @@
+{
+  "name": "backbone-browserify-test",
+  "version": "0.0.1",
+  "description": "Basic single-page webapp test with Backbone, Browserify, Handlebars and Less",
+  "author": "Boris Graeff",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "handlebars-loader": "^1.1.4",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "server": "webpack-dev-server --progress --colors",
+    "dev": "webpack --progress --colors --watch"
+  }
+}

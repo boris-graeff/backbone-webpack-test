@@ -14,5 +14,8 @@ module.exports = {
     },
     plugins: [
         new webpack.optimize.UglifyJsPlugin()
-    ]
+    ],
+    externals: {
+        jquery: "jQuery"
+    }
 };

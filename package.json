@@ -5,8 +5,7 @@
   "author": "Boris Graeff",
   "license": "MIT",
   "dependencies": {
-    "backbone": "^1.2.3",
-    "jquery": "^2.1.4"
+    "backbone": "^1.2.3"
   },
   "devDependencies": {
     "css-loader": "^0.23.0",
@@ -17,6 +16,6 @@
   },
   "scripts": {
     "server": "webpack-dev-server --progress --colors",
-    "dev": "webpack --progress --colors --watch"
+    "start": "webpack --progress --colors --watch"
   }
 }
